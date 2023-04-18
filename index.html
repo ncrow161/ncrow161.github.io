@@ -1,47 +1,91 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
-body {
-    background: blue;
-    font-family: Verdana;
-}  
-#content {
-    background: white;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
 <body>
-    <div id="content">
-        <h1>Natalie Crowe</h1>
-        <h2>High school senior in Greenville, South Carolina</h2>
-        
-         <p>I will be attending Bob Jones University as a freshman in the fall. I plan to study English with an emphasis in creative writing.</p>
-         <p>
-            I attend Community Baptist Church in Greer SC.
-         </p> 
-         <p>
-            I enjoy crocheting, listening to music, reading, and writing.
-         </p>
-       
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Blog Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image: url('assets/img/home-bg.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="site-heading">
+                        <h1>Nani's Nook</h1><span class="subheading">My little corner of the internet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">He is risen indeed</h2>
+                        <h3 class="post-subtitle">Today, we celebrate the resurrection of our Savior</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Nani's Nook on April 8, 2018</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">What is the deal with Llamas?</h2>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Nani's Nook on April 7, 2018</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title"> Poetry vs. Fiction</h2>
+                        <h3 class="post-subtitle">What are some of the main differences between these two forms of writing?</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Nani's Nook on April 3, 2018</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">Crocheting and knitting are not the same</h2>
+                        <h3 class="post-subtitle">Trust me...they're not</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Nani's Nook on March 31, 2018</a></p>
+                </div>
+                <hr>
+                <div class="clearfix"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></div>
+            </div>
+        </div>
     </div>
-           
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
+                    </ul>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Brand 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
 </body>
+
 </html>
